@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Registration Form</title>
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
+</head>
+<body>
+
+  <h1>Want to go to Mars?</h1>
+
+  <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+
+  <section class="contact">
+    <div class="max-length">
+      <h2>Personal details</h2>
+      <form method="POST" action="https://formspree.io/mykalbaytaluk@gmail.com">
+        <div>
+          <label for="name">Name</label>
+          <input id="name" name="name">
+        </div>
+        <div>
+          <label for="age">Age</label>
+          <input id="age" name="age">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email">
+        </div>
+        <div>
+          <label for="subject">Physical fitness</label>
+          <select id="subject" name="subject">
+            <option>Super-human</option>
+            <option>Fit as a fiddle</option>
+            <option>Not terribly strong</option>
+            <option>A little couch-potato-y</option>
+          </select>
+        </div>
+        <div>
+          <label for="details">Address</label>
+          <textarea id="details" name="message"></textarea>
+        </div>
+        <h2>Mission statement</h2>
+        <div>
+          <label for="details">Why do you want to go to Mars?</label>
+          <textarea id="details-2" name="message"></textarea>
+        </div>
+        <div>
+          <button class="btn" type="submit">Register for the trip!</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>

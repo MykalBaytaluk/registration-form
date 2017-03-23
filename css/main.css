@@ -1,0 +1,15 @@
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  border: 4px;
+}
+
+@media only screen and (min-width: 60em) {
+
+  body {
+    max-width: 60%;
+  }
+
+}
