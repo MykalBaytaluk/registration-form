@@ -2,14 +2,18 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
-h1 {
-  border: 4px;
+body {
+  background-color: #f2f2f2;
 }
 
-@media only screen and (min-width: 60em) {
+form {
+  background-color: #fff;
+}
 
-  body {
-    max-width: 60%;
-  }
+h1 {
+  border-bottom: 1px solid #000;
+}
 
+h2 {
+  border-bottom: 1px solid #000;
 }
