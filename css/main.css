@@ -17,3 +17,23 @@ h1 {
 h2 {
   border-bottom: 1px solid #000;
 }
+
+@media only screen and (min-width: 60em) {
+
+  .name {
+    padding-right: .5em;
+  }
+
+  .age {
+    padding-left: .5em;
+  }
+
+  .email {
+    padding-right: .5em;
+  }
+
+  .health {
+    padding-left: .5em;
+  }
+
+}
